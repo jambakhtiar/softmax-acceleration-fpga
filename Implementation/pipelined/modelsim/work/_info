@@ -1,0 +1,768 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/tools/qartus_20_1/modelsim_ase/bin
+vacc1
+Z0 !s110 1739704393
+!i10b 1
+!s100 J8RU^ETZ5moI@MQfYgfY]3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5<RLcQ2lo`fV`<k=:@S]70
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/jam/Downloads/softmax/solution/pipelined/modelsim
+w1738068309
+8/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v
+F/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v
+!i122 504
+L0 8 25
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1739704393.000000
+!s107 /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+Eacc1_0002
+Z8 w1738068302
+Z9 DPx3 lpm 14 lpm_components 0 22 jlWe>e^2@cAI7EQaRX2E;1
+Z10 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3dzZ?YU_4FC5UU0cTXRET1
+Z11 DPx9 altera_mf 20 altera_mf_components 0 22 HVLmIbRl@QhXfWVOmhK<j1
+Z12 DPx4 work 21 dspba_library_package 0 22 g5ge0<PbUA3NecLg[8;Cj3
+Z13 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z15 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z16 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 505
+R3
+Z17 8/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd
+Z18 F/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd
+l0
+Z19 L36 1
+VXo9FeP;c4T2n20VWGc<8z2
+!s100 GZk7AKzF7cfB5ka62i@kc3
+Z20 OV;C;2020.1;71
+32
+R0
+!i10b 1
+R5
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd|
+Z22 !s107 /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd|
+!i113 1
+Z23 o-work work -2002 -explicit
+Z24 tExplicit 1 CvgOpt 0
+Anormal
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+DEx4 work 9 acc1_0002 0 22 Xo9FeP;c4T2n20VWGc<8z2
+!i122 505
+l283
+L50 1064
+VY;Ie1TOQk3;6VV6R7`3P<0
+!s100 C?kL@^53e>=LKA^ieW?Ne2
+R20
+32
+R0
+!i10b 1
+R5
+R21
+R22
+!i113 1
+R23
+R24
+vadder
+R0
+!i10b 1
+!s100 En4?R7BoaaD=VXNQ2WT2N2
+R1
+IFLQWP0CJD:Oll:Z7[Y9P>3
+R2
+R3
+w1739275378
+8/home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v
+F/home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v
+!i122 509
+L0 35 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v|
+!i113 1
+R6
+R7
+vadder1
+Z25 !s110 1739708920
+!i10b 1
+!s100 znz<R@d[722m3660gb;ni0
+R1
+I51PnkggH8=<aVVSnDEJ9c2
+R2
+R3
+w1739509652
+8/home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v
+F/home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v
+!i122 769
+L0 4 59
+R4
+r1
+!s85 0
+31
+Z26 !s108 1739708920.000000
+!s107 /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v|
+!i113 1
+R6
+R7
+vadder_tb
+R25
+!i10b 1
+!s100 c=ld>1455SR@<aji@YiMT3
+R1
+IX?X7`<4@M88I`_1SlFc`P1
+R2
+R3
+w1739509939
+8/home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v
+F/home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v
+!i122 770
+L0 4 40
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v|
+!i113 1
+R6
+R7
+vcontrol_unit_tb
+R25
+!i10b 1
+!s100 2TPogfLRES`WBXFDTaJA_3
+R1
+I8<[7;zA]2b=?:1PblklfD0
+R2
+R3
+w1738064686
+8/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/control_unit_tb.v
+F/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/control_unit_tb.v
+!i122 772
+L0 4 94
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/control_unit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/control_unit_tb.v|
+!i113 1
+R6
+R7
+vcounter_tb
+R25
+!i10b 1
+!s100 H^_[]F@SA:UPbC=fQ[o9m2
+R1
+Ic_E366jLEafVfJQ:^oD@C0
+R2
+R3
+w1738055257
+8/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/counter_tb.v
+F/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/counter_tb.v
+!i122 773
+L0 4 55
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/counter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/counter_tb.v|
+!i113 1
+R6
+R7
+Edspba_delay
+Z27 w1735645689
+R12
+R15
+R16
+!i122 519
+R3
+Z28 8/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd
+Z29 F/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd
+l0
+L18 1
+VJZ>XXZi]3nAML><T1OJmD2
+!s100 >TY9@l4a>2O5Wd_6jF4:g0
+R20
+32
+Z30 !s110 1739704394
+!i10b 1
+Z31 !s108 1739704394.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd|
+Z33 !s107 /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd|
+!i113 1
+R23
+R24
+Adelay
+R12
+R15
+R16
+DEx4 work 11 dspba_delay 0 22 JZ>XXZi]3nAML><T1OJmD2
+!i122 519
+l37
+L34 51
+VH[ibU<H]FT4<DCgHmIjFa0
+!s100 DAfPXKZhR<Ac>Wg8zYj1H3
+R20
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R23
+R24
+Pdspba_library_package
+R15
+R16
+!i122 520
+R27
+R3
+8/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd
+F/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd
+l0
+L17 1
+Vg5ge0<PbUA3NecLg[8;Cj3
+!s100 @e;XE0e^oAdIdzY=Rc];H3
+R20
+32
+R30
+!i10b 1
+R31
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd|
+!s107 /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd|
+!i113 1
+R23
+R24
+Edspba_pipe
+R27
+R14
+R15
+R16
+!i122 519
+R3
+R28
+R29
+l0
+L343 1
+VhX_ehDHUhEGT`<4CLHDEW1
+!s100 ko3XcgZgdPgSD;SDR?Wmi2
+R20
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R23
+R24
+Artl
+R14
+R15
+R16
+DEx4 work 10 dspba_pipe 0 22 hX_ehDHUhEGT`<4CLHDEW1
+!i122 519
+l362
+L356 21
+VF>oh8b`LjePmYI9jU_S=k2
+!s100 =]hA3YBJaaU9dNBMla?I?2
+R20
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R23
+R24
+Edspba_sync_reg
+R27
+R12
+R14
+R15
+R16
+!i122 519
+R3
+R28
+R29
+l0
+L93 1
+V[2:MQ1fH@k]9VCDY^FzcN0
+!s100 G`[2Ci2RQWoL`zK>2h>oj2
+R20
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R23
+R24
+Async_reg
+R12
+R14
+R15
+R16
+DEx4 work 14 dspba_sync_reg 0 22 [2:MQ1fH@k]9VCDY^FzcN0
+!i122 519
+l136
+L117 219
+VZKLBIVGKhdlX>MS;1P6Rc3
+!s100 3CF6gEiK7^`H_<3Ne[inV2
+R20
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R23
+R24
+vexpo
+Z34 !s110 1739708921
+!i10b 1
+!s100 m2XP5XRz@FjK7gjK8MFo`2
+R1
+IgIU:eVl>MPFkWCAW[nBfi0
+R2
+R3
+w1735104392
+8/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v
+F/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v
+!i122 778
+Z35 L0 8 15
+R4
+r1
+!s85 0
+31
+Z36 !s108 1739708921.000000
+!s107 /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v|
+!i113 1
+R6
+R7
+Eexpo_0002
+Z37 w1735104377
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 513
+R3
+Z38 8/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd
+Z39 F/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd
+l0
+R19
+V0=fnI]BWa_df>ZFV2hVdn1
+!s100 h^N_:]ISEj1@1hW3aTePS1
+R20
+32
+R30
+!i10b 1
+R31
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd|
+Z41 !s107 /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd|
+!i113 1
+R23
+R24
+Anormal
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+DEx4 work 9 expo_0002 0 22 0=fnI]BWa_df>ZFV2hVdn1
+!i122 513
+l461
+L45 2627
+V?A>GYGU9h6kT]l]bXP2=Q0
+!s100 U7F:WUW[K0>Vh6mzMIg<80
+R20
+32
+R30
+!i10b 1
+R31
+R40
+R41
+!i113 1
+R23
+R24
+vexpo_tb
+R25
+!i10b 1
+!s100 alkI8CZ7YLk;2D2L2Q<4h3
+R1
+IZm9?=X4N;z21H;lo4nR^02
+R2
+R3
+w1737990265
+8/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v
+F/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v
+!i122 774
+L0 6 42
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v|
+!i113 1
+R6
+R7
+vmultiplier1
+R30
+!i10b 1
+!s100 IaMKaf0CGK<d4dA@;KU8D0
+R1
+ILlQf6X]58Id9;7kV9?N0k3
+R2
+R3
+w1735645641
+8/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v
+F/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v
+!i122 514
+L0 8 17
+R4
+r1
+!s85 0
+31
+R31
+!s107 /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v|
+!i113 1
+R6
+R7
+Emultiplier1_0002
+Z42 w1735645628
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 517
+R3
+Z43 8/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd
+Z44 F/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd
+l0
+R19
+V3cPBdI4Bbo4Fi=B06f1;X2
+!s100 Y;><dM6D]dcRi0he5AOB63
+R20
+32
+R30
+!i10b 1
+R31
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd|
+Z46 !s107 /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd|
+!i113 1
+R23
+R24
+Anormal
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+DEx4 work 16 multiplier1_0002 0 22 3cPBdI4Bbo4Fi=B06f1;X2
+!i122 517
+l203
+L46 653
+VBQLhHGm]QCI>ATVCUlc?l2
+!s100 [BejT3HUVXaSMdV4GdRKd3
+R20
+32
+R30
+!i10b 1
+R31
+R45
+R46
+!i113 1
+R23
+R24
+vmultiplier1_tb
+R25
+!i10b 1
+!s100 J`^;WZ<SC?Xc2@oMISd7a1
+R1
+I;?;MhJDa=cnecob@@f9_<1
+R2
+R3
+w1737996480
+8/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v
+F/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v
+!i122 775
+L0 4 61
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v|
+!i113 1
+R6
+R7
+vreciprocal1
+R30
+!i10b 1
+!s100 ViT>FE;m4jii7CkIKCn[d0
+R1
+IOX6c9jAB>TF1iUT>4GYZR2
+R2
+R3
+w1735645702
+8/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v
+F/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v
+!i122 518
+R35
+R4
+r1
+!s85 0
+31
+R31
+!s107 /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v|
+!i113 1
+R6
+R7
+Ereciprocal1_0002
+R27
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 521
+R3
+Z47 8/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd
+Z48 F/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd
+l0
+R19
+V6=_5Ya^:8OJ>DSAeWOP0V0
+!s100 IR72;^@<2[HiSkTMBfL=a2
+R20
+32
+R30
+!i10b 1
+R31
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd|
+Z50 !s107 /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd|
+!i113 1
+R23
+R24
+Anormal
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+DEx4 work 16 reciprocal1_0002 0 22 6=_5Ya^:8OJ>DSAeWOP0V0
+!i122 521
+l317
+L45 1246
+VAlilD?@fcTk[<D3]XX>@b0
+!s100 [iLe[;nfRCI[Dl^hi=:?j3
+R20
+32
+R30
+!i10b 1
+R31
+R49
+R50
+!i113 1
+R23
+R24
+vreciprocal1_tb
+R34
+!i10b 1
+!s100 mN4<EcZZ<W_c]DZR2F7Q;0
+R1
+I<:0C7YhH6P5YOe`l=lK5m0
+R2
+R3
+w1739706051
+8/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v
+F/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v
+!i122 776
+L0 4 68
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v|
+!i113 1
+R6
+R7
+vreg32
+R0
+!i10b 1
+!s100 1kMC8HRM8SokFUG0Wf52V2
+R1
+IhL;McW6ik@emb9=aL8^K81
+R2
+R3
+w1739276758
+8/home/jam/Downloads/softmax/solution/pipelined/quartus/reg32.v
+F/home/jam/Downloads/softmax/solution/pipelined/quartus/reg32.v
+!i122 501
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jam/Downloads/softmax/solution/pipelined/quartus/reg32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/quartus/reg32.v|
+!i113 1
+R6
+R7
+vsoftmax_16p
+R34
+!i10b 1
+!s100 m75W8ToHUKJj`6iMO=]4j0
+R1
+IPeVhV:4[];=i]44YYW@HQ1
+R2
+R3
+w1739708882
+8/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v
+F/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v
+!i122 779
+L0 5 135
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v|
+!i113 1
+R6
+R7
+vsoftmax_16p_tb
+R25
+!i10b 1
+!s100 ;`ZLjhDMWY@kc>?Ym7@j21
+R1
+I5eWT^ePPldK`aDdWzbS;B0
+R2
+R3
+w1739706874
+8/home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v
+F/home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v
+!i122 771
+L0 4 56
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v|
+!i113 1
+R6
+R7
+vsoftmax_8p
+R0
+!i10b 1
+!s100 [N8N:K6gVdKbMcgh`Qi[m3
+R1
+Ii=]5W1<1Ne=[eQGzb4M020
+R2
+R3
+w1739512586
+8/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v
+F/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v
+!i122 502
+L0 5 129
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v|
+!i113 1
+R6
+R7
+vtb_accumulator1
+R34
+!i10b 1
+!s100 IFW0kGP<=eLSTGLTCORUh1
+R1
+IT25c9`ZTR8Q2RYZXP^EW@3
+R2
+R3
+w1739526997
+8/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v
+F/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v
+!i122 777
+L0 4 64
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v|
+!i113 1
+R6
+R7

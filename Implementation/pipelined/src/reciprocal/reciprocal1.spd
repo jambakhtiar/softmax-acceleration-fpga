@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="reciprocal1_sim/reciprocal1_memoryC0_uid73_inverseTables_lutmem.hex"
+   type="HEX" />
+ <file
+   path="reciprocal1_sim/reciprocal1_memoryC0_uid74_inverseTables_lutmem.hex"
+   type="HEX" />
+ <file
+   path="reciprocal1_sim/reciprocal1_memoryC1_uid77_inverseTables_lutmem.hex"
+   type="HEX" />
+ <file
+   path="reciprocal1_sim/reciprocal1_memoryC2_uid80_inverseTables_lutmem.hex"
+   type="HEX" />
+ <file path="reciprocal1_sim/reciprocal1.vo" type="VERILOG" />
+ <topLevel name="reciprocal1" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

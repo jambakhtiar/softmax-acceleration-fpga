@@ -1,0 +1,36 @@
+Quartus Prime Archive log --	/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax.qarlog
+
+Archive:	/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax.qar
+Date:		Tue Jan 28 21:58:50 2025
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax.qpf
+/home/jam/Downloads/softmax/solution/pipelined/quartus/softmax.qsf
+/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v
+/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library_package.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/address_gen.v
+/home/jam/Downloads/softmax/solution/pipelined/src/control_unit.v
+/home/jam/Downloads/softmax/solution/pipelined/src/counter.v
+/home/jam/Downloads/softmax/solution/pipelined/src/dualport_ram.v
+/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v
+/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v
+/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library_package.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/ram.v
+/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v
+/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd
+/home/jam/Downloads/softmax/solution/pipelined/src/softmax.v
+/tools/qartus_20_1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 25 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

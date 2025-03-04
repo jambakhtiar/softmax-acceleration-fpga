@@ -1,0 +1,326 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jam/Downloads/softmax/fiverr_softmax/verification
+vaccumulator1
+!s110 1737611616
+!i10b 1
+!s100 BDM3j>h80__eQVf]kA^ia0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^alAI7YD^cmFlbJQ`4gFA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1737546294
+8/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1.v
+F/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1.v
+!i122 122
+L0 8 25
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1737611616.000000
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vaccumulator1_tb
+!s110 1737611545
+!i10b 1
+!s100 ?1Q^I5Z8PbPXWda?VI@Cm3
+R1
+IS<SjT^OVf3OjAEVBITDPF3
+R2
+R0
+w1737611536
+Z7 8/home/jam/Downloads/softmax/fiverr_softmax/verification/tb_accumulator1.v
+Z8 F/home/jam/Downloads/softmax/fiverr_softmax/verification/tb_accumulator1.v
+!i122 91
+Z9 L0 4 63
+R3
+r1
+!s85 0
+31
+!s108 1737611545.000000
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/verification/tb_accumulator1.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/verification/tb_accumulator1.v|
+!i113 1
+R5
+R6
+vaddress_generator3
+Z11 !s110 1737611617
+!i10b 1
+!s100 G[mAPHcZ]Y?[5RVVe8S913
+R1
+IgYK4KgRaIB>^@?5jS;S`f0
+R2
+R0
+w1735549814
+8/home/jam/Downloads/softmax/fiverr_softmax/submodules/address_generator/address_generator3.v
+F/home/jam/Downloads/softmax/fiverr_softmax/submodules/address_generator/address_generator3.v
+!i122 126
+L0 1 20
+R3
+r1
+!s85 0
+31
+Z12 !s108 1737611617.000000
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/address_generator/address_generator3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/address_generator/address_generator3.v|
+!i113 1
+R5
+R6
+Edspba_delay
+Z13 w1735645689
+Z14 DPx4 work 21 dspba_library_package 0 22 g5ge0<PbUA3NecLg[8;Cj3
+Z15 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z16 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 130
+R0
+Z17 8/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library.vhd
+Z18 F/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library.vhd
+l0
+L18 1
+VJZ>XXZi]3nAML><T1OJmD2
+!s100 >TY9@l4a>2O5Wd_6jF4:g0
+Z19 OV;C;2020.1;71
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library.vhd|
+Z21 !s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library.vhd|
+!i113 1
+Z22 o-work work -2002 -explicit
+Z23 tExplicit 1 CvgOpt 0
+Adelay
+R14
+R15
+R16
+DEx4 work 11 dspba_delay 0 22 JZ>XXZi]3nAML><T1OJmD2
+!i122 130
+l37
+L34 51
+VH[ibU<H]FT4<DCgHmIjFa0
+!s100 DAfPXKZhR<Ac>Wg8zYj1H3
+R19
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R22
+R23
+Pdspba_library_package
+R15
+R16
+!i122 131
+R13
+R0
+8/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library_package.vhd
+F/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library_package.vhd
+l0
+L17 1
+Vg5ge0<PbUA3NecLg[8;Cj3
+!s100 @e;XE0e^oAdIdzY=Rc];H3
+R19
+32
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library_package.vhd|
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1/dspba_library_package.vhd|
+!i113 1
+R22
+R23
+Edspba_pipe
+R13
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R15
+R16
+!i122 130
+R0
+R17
+R18
+l0
+L343 1
+VhX_ehDHUhEGT`<4CLHDEW1
+!s100 ko3XcgZgdPgSD;SDR?Wmi2
+R19
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R22
+R23
+Artl
+R24
+R15
+R16
+DEx4 work 10 dspba_pipe 0 22 hX_ehDHUhEGT`<4CLHDEW1
+!i122 130
+l362
+L356 21
+VF>oh8b`LjePmYI9jU_S=k2
+!s100 =]hA3YBJaaU9dNBMla?I?2
+R19
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R22
+R23
+Edspba_sync_reg
+R13
+R14
+R24
+R15
+R16
+!i122 130
+R0
+R17
+R18
+l0
+L93 1
+V[2:MQ1fH@k]9VCDY^FzcN0
+!s100 G`[2Ci2RQWoL`zK>2h>oj2
+R19
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R22
+R23
+Async_reg
+R14
+R24
+R15
+R16
+DEx4 work 14 dspba_sync_reg 0 22 [2:MQ1fH@k]9VCDY^FzcN0
+!i122 130
+l136
+L117 219
+VZKLBIVGKhdlX>MS;1P6Rc3
+!s100 3CF6gEiK7^`H_<3Ne[inV2
+R19
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R22
+R23
+vexpo
+R11
+!i10b 1
+!s100 m2XP5XRz@FjK7gjK8MFo`2
+R1
+I9`l5kD8R`eMim4Pe>RkWR0
+R2
+R0
+w1735104392
+8/home/jam/Downloads/softmax/fiverr_softmax/submodules/exponential/expo.v
+F/home/jam/Downloads/softmax/fiverr_softmax/submodules/exponential/expo.v
+!i122 123
+Z25 L0 8 15
+R3
+r1
+!s85 0
+31
+R4
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/exponential/expo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/exponential/expo.v|
+!i113 1
+R5
+R6
+vram1
+R11
+!i10b 1
+!s100 PEjYJdRO^alC4YNfLTFnB2
+R1
+IMomh4Yf9?zoKh9YBY;O0J0
+R2
+R0
+w1735104588
+8/home/jam/Downloads/softmax/fiverr_softmax/submodules/ram/ram1.v
+F/home/jam/Downloads/softmax/fiverr_softmax/submodules/ram/ram1.v
+!i122 129
+L0 40 66
+R3
+r1
+!s85 0
+31
+R12
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/ram/ram1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/ram/ram1.v|
+!i113 1
+R5
+R6
+vreciprocal1
+R11
+!i10b 1
+!s100 ViT>FE;m4jii7CkIKCn[d0
+R1
+IL^?bn4GiO[N3h`LN@;J[A1
+R2
+R0
+w1735645702
+8/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1.v
+F/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1.v
+!i122 132
+R25
+R3
+r1
+!s85 0
+31
+R12
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/reciprocal/reciprocal1.v|
+!i113 1
+R5
+R6
+vtb_accumulator1
+R11
+!i10b 1
+!s100 dhcZgb09VRzn6AJEWMf9Y0
+R1
+IoQCU=SIioa>fTO=z^j5d>2
+R2
+R0
+w1737611566
+R7
+R8
+!i122 133
+R9
+R3
+r1
+!s85 0
+31
+R12
+Z26 !s107 /home/jam/Downloads/softmax/fiverr_softmax/verification/tb_accumulator1.v|
+R10
+!i113 1
+R5
+R6

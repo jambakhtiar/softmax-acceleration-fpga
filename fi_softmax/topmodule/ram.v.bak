@@ -1,0 +1,38 @@
+module bram
+	#(
+		parameter picture_size = 921600, // 1280 Pixels* 720 Pixels picture= 921600 Pixels
+		parameter RAM_WIDTH 		= 24,
+		parameter RAM_ADDR_BITS 	= 20,
+		parameter DATA_FILE 		= "/home/jam/Downloads/NU/Projects/bram_hdmi/coe_generation/sample1.txt",
+		parameter INIT_START_ADDR 	= 0,
+		parameter INIT_END_ADDR		= 921599
+	)
+	(
+	input							clock,
+	input							ram_enable,
+	input							write_enable,
+    input 		[RAM_ADDR_BITS-1:0]	address,
+    input 		[RAM_WIDTH-1:0] 	input_data,
+	output reg 	[RAM_WIDTH-1:0] 	output_data
+	);
+	
+   
+   (* RAM_STYLE="BLOCK" *)
+   reg [RAM_WIDTH-1:0] ram_name [0:picture_size-1];
+
+
+   //  The forllowing code is only necessary if you wish to initialize the RAM 
+   //  contents via an external file (use $readmemb for binary data)
+   initial begin
+      $readmemh(DATA_FILE, ram_name, INIT_START_ADDR, INIT_END_ADDR);
+    end
+    
+   always @(posedge clock)
+      if (ram_enable) begin
+         output_data <= ram_name[address];   
+         if (write_enable)
+            ram_name[address] <= input_data;
+      end
+
+endmodule
+						

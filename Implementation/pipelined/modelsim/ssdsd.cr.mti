@@ -1,0 +1,78 @@
+/home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module softmax_16p_tb
+
+Top level modules:
+	softmax_16p_tb
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder1
+
+Top level modules:
+	adder1
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/control_unit_tb.v} {1 {vlog -work work -stats=none {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/control_unit_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module control_unit_tb
+
+Top level modules:
+	control_unit_tb
+
+} {} {}} {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/counter_tb.v} {1 {vlog -work work -stats=none {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/counter_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}} {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v} {1 {vlog -work work -stats=none {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module expo_tb
+
+Top level modules:
+	expo_tb
+
+} {} {}} {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v} {1 {vlog -work work -stats=none {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier1_tb
+
+Top level modules:
+	multiplier1_tb
+
+} {} {}} {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v} {1 {vlog -work work -stats=none {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reciprocal1_tb
+
+Top level modules:
+	reciprocal1_tb
+
+} {} {}} {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v} {1 {vlog -work work -stats=none {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_accumulator1
+
+Top level modules:
+	tb_accumulator1
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module softmax_16p
+
+Top level modules:
+	softmax_16p
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module expo
+
+Top level modules:
+	expo
+
+} {} {}}

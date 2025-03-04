@@ -1,0 +1,283 @@
+Analysis & Synthesis report for softmax
+Fri Feb 14 12:22:56 2025
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++---------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                              ;
++-----------------------------+---------------------------------------------+
+; Analysis & Synthesis Status ; Failed - Fri Feb 14 12:22:56 2025           ;
+; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name               ; softmax                                     ;
+; Top-level Entity Name       ; softmax_8p                                  ;
+; Family                      ; Cyclone V                                   ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
+; Top-level entity name                                                           ; softmax_8p         ; softmax            ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Fri Feb 14 12:22:46 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off softmax -c softmax
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v
+    Info (12023): Found entity 1: adder File: /home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v Line: 35
+Info (12021): Found 2 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd
+    Info (12022): Found design unit 1: expo_0002-normal File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd Line: 45
+    Info (12023): Found entity 1: expo_0002 File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd Line: 36
+Info (12021): Found 1 design units, including 0 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd
+    Info (12022): Found design unit 1: dspba_library_package File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd Line: 17
+Info (12021): Found 6 design units, including 3 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd
+    Info (12022): Found design unit 1: dspba_delay-delay File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd Line: 34
+    Info (12022): Found design unit 2: dspba_sync_reg-sync_reg File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd Line: 117
+    Info (12022): Found design unit 3: dspba_pipe-rtl File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd Line: 356
+    Info (12023): Found entity 1: dspba_delay File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd Line: 18
+    Info (12023): Found entity 2: dspba_sync_reg File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd Line: 93
+    Info (12023): Found entity 3: dspba_pipe File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd Line: 343
+Info (15248): File "/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library_package.vhd" is a duplicate of already analyzed file "/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library_package.vhd
+Info (15248): File "/home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library.vhd" is a duplicate of already analyzed file "/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd
+    Info (12022): Found design unit 1: acc1_0002-normal File: /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd Line: 50
+    Info (12023): Found entity 1: acc1_0002 File: /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd Line: 36
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v
+    Info (12023): Found entity 1: acc1 File: /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v
+    Info (12023): Found entity 1: expo File: /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v
+    Info (12023): Found entity 1: multiplier1 File: /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v
+    Info (12023): Found entity 1: reciprocal1 File: /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v Line: 8
+Warning (10335): Unrecognized synthesis attribute "RAM_STYLE" at ../src/ram.v(26) File: /home/jam/Downloads/softmax/solution/pipelined/src/ram.v Line: 26
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/ram.v
+    Info (12023): Found entity 1: ram File: /home/jam/Downloads/softmax/solution/pipelined/src/ram.v Line: 2
+Warning (10335): Unrecognized synthesis attribute "RAM_STYLE" at ../src/dualport_ram.v(24) File: /home/jam/Downloads/softmax/solution/pipelined/src/dualport_ram.v Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/dualport_ram.v
+    Info (12023): Found entity 1: dualport_ram File: /home/jam/Downloads/softmax/solution/pipelined/src/dualport_ram.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/counter.v
+    Info (12023): Found entity 1: counter File: /home/jam/Downloads/softmax/solution/pipelined/src/counter.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/control_unit.v
+    Info (12023): Found entity 1: control_unit File: /home/jam/Downloads/softmax/solution/pipelined/src/control_unit.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/address_gen.v
+    Info (12023): Found entity 1: address_gen File: /home/jam/Downloads/softmax/solution/pipelined/src/address_gen.v Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd
+    Info (12022): Found design unit 1: multiplier1_0002-normal File: /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd Line: 46
+    Info (12023): Found entity 1: multiplier1_0002 File: /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd Line: 36
+Info (15248): File "/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library_package.vhd" is a duplicate of already analyzed file "/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library_package.vhd
+Info (15248): File "/home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library.vhd" is a duplicate of already analyzed file "/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd
+    Info (12022): Found design unit 1: reciprocal1_0002-normal File: /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd Line: 45
+    Info (12023): Found entity 1: reciprocal1_0002 File: /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd Line: 36
+Info (15248): File "/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd" is a duplicate of already analyzed file "/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd
+Info (15248): File "/home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd" is a duplicate of already analyzed file "/home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd
+Info (12021): Found 1 design units, including 1 entities, in source file /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v
+    Info (12023): Found entity 1: softmax File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file softmax_v2.v
+    Info (12023): Found entity 1: softmax_v2 File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_v2.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file reg32.v
+    Info (12023): Found entity 1: reg32 File: /home/jam/Downloads/softmax/solution/pipelined/quartus/reg32.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file softmax_16p.v
+    Info (12023): Found entity 1: softmax_16p File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file softmax_8p.v
+    Info (12023): Found entity 1: softmax_8p File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file adder1.v
+    Info (12023): Found entity 1: adder1 File: /home/jam/Downloads/softmax/solution/pipelined/quartus/adder1.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file fsm_8p.v
+    Info (12023): Found entity 1: fsm_8p File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 4
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(39): created implicit net for "expo_latency_cnt_en" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 39
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(40): created implicit net for "expo_latency_cnt_done" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 40
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(48): created implicit net for "acc_latency_cnt_en" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 48
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(49): created implicit net for "acc_latency_cnt_done" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 49
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(56): created implicit net for "reci_latency_cnt_en" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 56
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(57): created implicit net for "reci_latency_cnt_done" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 57
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(65): created implicit net for "multi_latency_cnt_en" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 65
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(66): created implicit net for "multi_latency_cnt_done" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 66
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(84): created implicit net for "ram1_enable_b" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 84
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(85): created implicit net for "addr_gen1_en" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 85
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(86): created implicit net for "ram2_en_a" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 86
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(87): created implicit net for "ram2_wr_en_a" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 87
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(88): created implicit net for "acc_en" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 88
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(89): created implicit net for "ram2_en_b" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 89
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(90): created implicit net for "addr_gen2_en" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 90
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(91): created implicit net for "ram3_enable_a" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 91
+Warning (10236): Verilog HDL Implicit Net warning at softmax.v(92): created implicit net for "ram3_wr_en_a" File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 92
+Critical Warning (10846): Verilog HDL Instantiation warning at softmax.v(96): instance has no name File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 96
+Critical Warning (10846): Verilog HDL Instantiation warning at softmax.v(181): instance has no name File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 181
+Critical Warning (10846): Verilog HDL Instantiation warning at softmax.v(198): instance has no name File: /home/jam/Downloads/softmax/solution/pipelined/src/softmax.v Line: 198
+Critical Warning (10846): Verilog HDL Instantiation warning at softmax_8p.v(109): instance has no name File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v Line: 109
+Error (10161): Verilog HDL error at fsm_8p.v(37): object "expo_latency_cnt_done" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 37
+Error (10161): Verilog HDL error at fsm_8p.v(39): object "acc_latency_cnt_done" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 39
+Error (10161): Verilog HDL error at fsm_8p.v(40): object "ram1_addr_done" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 40
+Error (10161): Verilog HDL error at fsm_8p.v(45): object "reci_latency_cnt_done" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 45
+Error (10161): Verilog HDL error at fsm_8p.v(47): object "reci_latency_cnt_done" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 47
+Error (10161): Verilog HDL error at fsm_8p.v(49): object "multi_latency_cnt_done" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 49
+Error (10161): Verilog HDL error at fsm_8p.v(50): object "ram2_addr_done" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 50
+Error (10161): Verilog HDL error at fsm_8p.v(63): object "expo_latency_cnt_en" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 63
+Error (10161): Verilog HDL error at fsm_8p.v(64): object "acc_latency_cnt_en" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 64
+Error (10161): Verilog HDL error at fsm_8p.v(65): object "reci_latency_cnt_en" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 65
+Error (10161): Verilog HDL error at fsm_8p.v(66): object "multi_latency_cnt_en" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 66
+Error (10161): Verilog HDL error at fsm_8p.v(67): object "ram1_enable_b" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 67
+Error (10161): Verilog HDL error at fsm_8p.v(68): object "addr_gen1_en" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 68
+Error (10161): Verilog HDL error at fsm_8p.v(69): object "ram2_en_a" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 69
+Error (10161): Verilog HDL error at fsm_8p.v(70): object "ram2_wr_en_a" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 70
+Error (10161): Verilog HDL error at fsm_8p.v(71): object "acc_en" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 71
+Error (10161): Verilog HDL error at fsm_8p.v(72): object "ram2_en_b" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 72
+Error (10161): Verilog HDL error at fsm_8p.v(73): object "addr_gen2_en" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 73
+Error (10161): Verilog HDL error at fsm_8p.v(74): object "ram3_enable_a" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: /home/jam/Downloads/softmax/solution/pipelined/quartus/fsm_8p.v Line: 74
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 19 errors, 24 warnings
+    Error: Peak virtual memory: 536 megabytes
+    Error: Processing ended: Fri Feb 14 12:22:56 2025
+    Error: Elapsed time: 00:00:10
+    Error: Total CPU time (on all processors): 00:00:27
+
+

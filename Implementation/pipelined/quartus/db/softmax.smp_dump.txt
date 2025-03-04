@@ -1,0 +1,11 @@
+
+State Machine - |softmax|control_unit:comb_3|current_state
+Name current_state.store_data current_state.multiplier current_state.fetch_expo current_state.reciprocal current_state.accumulate current_state.exponent current_state.read_input_data current_state.idle 
+current_state.idle 0 0 0 0 0 0 0 0 
+current_state.read_input_data 0 0 0 0 0 0 1 1 
+current_state.exponent 0 0 0 0 0 1 0 1 
+current_state.accumulate 0 0 0 0 1 0 0 1 
+current_state.reciprocal 0 0 0 1 0 0 0 1 
+current_state.fetch_expo 0 0 1 0 0 0 0 1 
+current_state.multiplier 0 1 0 0 0 0 0 1 
+current_state.store_data 1 0 0 0 0 0 0 1 

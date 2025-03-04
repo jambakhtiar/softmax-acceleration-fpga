@@ -1,0 +1,217 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/tools/qartus_20_1/modelsim_ase/bin
+Eaccumulator1_0002
+Z0 w1735645562
+Z1 DPx3 lpm 14 lpm_components 0 22 jlWe>e^2@cAI7EQaRX2E;1
+Z2 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3dzZ?YU_4FC5UU0cTXRET1
+Z3 DPx9 altera_mf 20 altera_mf_components 0 22 HVLmIbRl@QhXfWVOmhK<j1
+Z4 DPx4 work 21 dspba_library_package 0 22 g5ge0<PbUA3NecLg[8;Cj3
+Z5 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+Z9 d/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1
+Z10 8/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/accumulator1_0002.vhd
+Z11 F/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/accumulator1_0002.vhd
+l0
+L36 1
+VTe<Hhc>9Ehb<fEG5o][[h0
+!s100 T_R`a2LF66Mi`^:?ka2?20
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1737453368
+!i10b 1
+Z14 !s108 1737453368.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/accumulator1_0002.vhd|
+Z16 !s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/accumulator1_0002.vhd|
+!i113 1
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Anormal
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 17 accumulator1_0002 0 22 Te<Hhc>9Ehb<fEG5o][[h0
+!i122 7
+l278
+L49 1031
+VZ`V=67MnihWS^j;WbH]EN2
+!s100 zF;f@kPFoj=zNe=O^f:252
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Edspba_delay
+R0
+R4
+R7
+R8
+!i122 8
+R9
+Z19 8/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library.vhd
+Z20 F/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library.vhd
+l0
+L18 1
+VJZ>XXZi]3nAML><T1OJmD2
+!s100 >TY9@l4a>2O5Wd_6jF4:g0
+R12
+32
+R13
+!i10b 1
+R14
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library.vhd|
+Z22 !s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library.vhd|
+!i113 1
+R17
+R18
+Adelay
+R4
+R7
+R8
+DEx4 work 11 dspba_delay 0 22 JZ>XXZi]3nAML><T1OJmD2
+!i122 8
+l37
+L34 51
+VH[ibU<H]FT4<DCgHmIjFa0
+!s100 DAfPXKZhR<Ac>Wg8zYj1H3
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 1
+R17
+R18
+Pdspba_library_package
+R7
+R8
+!i122 9
+R0
+R9
+8/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library_package.vhd
+F/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library_package.vhd
+l0
+L17 1
+Vg5ge0<PbUA3NecLg[8;Cj3
+!s100 @e;XE0e^oAdIdzY=Rc];H3
+R12
+32
+R13
+!i10b 1
+R14
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library_package.vhd|
+!s107 /home/jam/Downloads/softmax/fiverr_softmax/submodules/accumulator/accumulator1/dspba_library_package.vhd|
+!i113 1
+R17
+R18
+Edspba_pipe
+R0
+R6
+R7
+R8
+!i122 8
+R9
+R19
+R20
+l0
+L343 1
+VhX_ehDHUhEGT`<4CLHDEW1
+!s100 ko3XcgZgdPgSD;SDR?Wmi2
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 1
+R17
+R18
+Artl
+R6
+R7
+R8
+DEx4 work 10 dspba_pipe 0 22 hX_ehDHUhEGT`<4CLHDEW1
+!i122 8
+l362
+L356 21
+VF>oh8b`LjePmYI9jU_S=k2
+!s100 =]hA3YBJaaU9dNBMla?I?2
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 1
+R17
+R18
+Edspba_sync_reg
+R0
+R4
+R6
+R7
+R8
+!i122 8
+R9
+R19
+R20
+l0
+L93 1
+V[2:MQ1fH@k]9VCDY^FzcN0
+!s100 G`[2Ci2RQWoL`zK>2h>oj2
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 1
+R17
+R18
+Async_reg
+R4
+R6
+R7
+R8
+DEx4 work 14 dspba_sync_reg 0 22 [2:MQ1fH@k]9VCDY^FzcN0
+!i122 8
+l136
+L117 219
+VZKLBIVGKhdlX>MS;1P6Rc3
+!s100 3CF6gEiK7^`H_<3Ne[inV2
+R12
+32
+R13
+!i10b 1
+R14
+R21
+R22
+!i113 1
+R17
+R18

@@ -1,0 +1,248 @@
+/home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/adder/adder.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/adder/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v} {1 {vlog -work work -stats=none {/home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_accumulator1
+
+Top level modules:
+	tb_accumulator1
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reciprocal1
+
+Top level modules:
+	reciprocal1
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dspba_library_package
+-- Compiling entity dspba_delay
+-- Compiling architecture delay of dspba_delay
+-- Loading package NUMERIC_STD
+-- Compiling entity dspba_sync_reg
+-- Compiling architecture sync_reg of dspba_sync_reg
+-- Compiling entity dspba_pipe
+-- Compiling architecture rtl of dspba_pipe
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/expo_0002.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Loading package LPM_COMPONENTS
+-- Compiling entity expo_0002
+-- Compiling architecture normal of expo_0002
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/adder/adder_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dspba_library_package
+-- Compiling entity dspba_delay
+-- Compiling architecture delay of dspba_delay
+-- Loading package NUMERIC_STD
+-- Compiling entity dspba_sync_reg
+-- Compiling architecture sync_reg of dspba_sync_reg
+-- Compiling entity dspba_pipe
+-- Compiling architecture rtl of dspba_pipe
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/acc1_0002.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Loading package LPM_COMPONENTS
+-- Compiling entity acc1_0002
+-- Compiling architecture normal of acc1_0002
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module softmax_16p
+
+Top level modules:
+	softmax_16p
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/dspba_library.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dspba_library_package
+-- Compiling entity dspba_delay
+-- Compiling architecture delay of dspba_delay
+-- Loading package NUMERIC_STD
+-- Compiling entity dspba_sync_reg
+-- Compiling architecture sync_reg of dspba_sync_reg
+-- Compiling entity dspba_pipe
+-- Compiling architecture rtl of dspba_pipe
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module softmax_16p_tb
+
+Top level modules:
+	softmax_16p_tb
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module acc1
+
+Top level modules:
+	acc1
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/quartus/reg32.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/quartus/reg32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg32
+
+Top level modules:
+	reg32
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/dspba_library.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package dspba_library_package
+-- Compiling entity dspba_delay
+-- Compiling architecture delay of dspba_delay
+-- Loading package NUMERIC_STD
+-- Compiling entity dspba_sync_reg
+-- Compiling architecture sync_reg of dspba_sync_reg
+-- Compiling entity dspba_pipe
+-- Compiling architecture rtl of dspba_pipe
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/reciprocal/reciprocal1/reciprocal1_0002.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Loading package LPM_COMPONENTS
+-- Compiling entity reciprocal1_0002
+-- Compiling architecture normal of reciprocal1_0002
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module expo
+
+Top level modules:
+	expo
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1/multiplier1_0002.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package dspba_library_package
+-- Loading package altera_mf_components
+-- Loading package altera_lnsim_components
+-- Loading package LPM_COMPONENTS
+-- Compiling entity multiplier1_0002
+-- Compiling architecture normal of multiplier1_0002
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder1
+
+Top level modules:
+	adder1
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/accumulator_ip_new/acc1/dspba_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/exponential/expo/dspba_library_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package dspba_library_package
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v {1 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/src/multiplier/multiplier1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier1
+
+Top level modules:
+	multiplier1
+
+} {} {}} /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v {2 {vlog -work work -stats=none /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module softmax_8p
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(122): (vlog-2697) MSB 287 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(122): (vlog-2697) LSB 256 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(123): (vlog-2697) MSB 319 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(123): (vlog-2697) LSB 288 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(124): (vlog-2697) MSB 351 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(124): (vlog-2697) LSB 320 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(125): (vlog-2697) MSB 383 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(125): (vlog-2697) LSB 352 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(126): (vlog-2697) MSB 415 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(126): (vlog-2697) LSB 384 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(127): (vlog-2697) MSB 447 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(127): (vlog-2697) LSB 416 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(128): (vlog-2697) MSB 479 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(128): (vlog-2697) LSB 448 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(129): (vlog-2697) MSB 511 of part-select into 'data_out' is out of bounds.
+** Warning: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_8p.v(129): (vlog-2697) LSB 480 of part-select into 'data_out' is out of bounds.
+
+Top level modules:
+	softmax_8p
+
+} {} {}}

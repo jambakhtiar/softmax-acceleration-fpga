@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="accumulator1_sim/dspba_library_package.vhd" type="VHDL" />
+ <file path="accumulator1_sim/dspba_library.vhd" type="VHDL" />
+ <file path="accumulator1_sim/accumulator1.vhd" type="VHDL" />
+ <topLevel name="accumulator1" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

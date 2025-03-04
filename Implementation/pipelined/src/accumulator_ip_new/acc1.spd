@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="acc1_sim/dspba_library_package.vhd" type="VHDL" />
+ <file path="acc1_sim/dspba_library.vhd" type="VHDL" />
+ <file path="acc1_sim/acc1.vhd" type="VHDL" />
+ <topLevel name="acc1" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

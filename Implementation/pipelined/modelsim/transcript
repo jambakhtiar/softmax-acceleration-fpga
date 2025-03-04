@@ -1,0 +1,1413 @@
+# Loading project ssdsd
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.expo_tb
+# vsim work.expo_tb 
+# Start time: 16:32:29 on Feb 16,2025
+# Loading work.expo_tb
+# Loading work.expo
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/expo_tb/*
+run -all
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v(44)
+#    Time: 231 ps  Iteration: 0  Instance: /expo_tb
+# Break in Module expo_tb at /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v line 44
+vsim work.tb_accumulator1
+# End time: 16:34:06 on Feb 16,2025, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 2
+# vsim work.tb_accumulator1 
+# Start time: 16:34:06 on Feb 16,2025
+# Loading work.tb_accumulator1
+# Loading work.acc1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.acc1_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_accumulator1/*
+run
+# Time	Reset	Input X	N	Output R	XO	XU	AO
+# 10	0	00000000	0	46000000	0	0	0
+# 14	0	00000010	0	42000000	0	0	0
+# 18	0	00000020	0	3a000000	0	0	0
+# 22	0	00000020	0	00000000	0	0	0
+# 28	0	3fc00000	0	00000000	0	0	0
+# 38	0	40000000	0	00000000	0	0	0
+# 42	0	40000000	0	45800000	0	0	0
+# 48	0	40400000	0	45800000	0	0	0
+# 58	0	40800000	0	45800000	0	0	0
+# 66	0	40800000	0	45800c00	0	0	0
+# 68	0	40a00000	0	45800c00	0	0	0
+# 70	0	40a00000	0	45801800	0	0	0
+# 74	0	40a00000	0	45802400	0	0	0
+# 78	0	40c00000	0	45803400	0	0	0
+# 82	0	40c00000	0	45804400	0	0	0
+# 86	0	40c00000	0	45805c00	0	0	0
+# 88	0	40e00000	0	45805c00	0	0	0
+# 90	0	40e00000	0	45807400	0	0	0
+# 94	0	40e00000	0	45808c00	0	0	0
+# 98	0	41000000	0	4580ac00	0	0	0
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.adder_tb
+# End time: 16:35:56 on Feb 16,2025, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 2
+# vsim work.adder_tb 
+# Start time: 16:35:56 on Feb 16,2025
+# Loading work.adder_tb
+# Loading work.adder1
+add wave -position insertpoint sim:/adder_tb/*
+run -all
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v(40)
+#    Time: 520 ns  Iteration: 0  Instance: /adder_tb
+# Break in Module adder_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v line 40
+restart
+run
+run
+run
+run
+run
+run
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.multiplier1_tb
+# End time: 16:37:34 on Feb 16,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+# vsim work.multiplier1_tb 
+# Start time: 16:37:34 on Feb 16,2025
+# Loading work.multiplier1_tb
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.multiplier1_0002(normal)
+# Loading work.dspba_delay(delay)
+add wave -position insertpoint sim:/multiplier1_tb/*
+run -all
+# Applying reset...
+# Reset de-asserted.
+# Input: a=ffffffff, b=00000001, Output: q=00000000
+# Input: a=7fffffff, b=00000002, Output: q=00000000
+# Input: a=00000001, b=ffffffff, Output: q=00000000
+# Simulation complete.
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v(61)
+#    Time: 270 ns  Iteration: 0  Instance: /multiplier1_tb
+# Break in Module multiplier1_tb at /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v line 61
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+vsim work.reciprocal1_tb
+# End time: 16:39:34 on Feb 16,2025, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 1
+# vsim work.reciprocal1_tb 
+# Start time: 16:39:34 on Feb 16,2025
+# Loading work.reciprocal1_tb
+# Loading work.reciprocal1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.reciprocal1_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+# Compile of expo.v was successful.
+# 10 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/reciprocal1_tb/*
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# Applying reset...
+# Reset de-asserted.
+# Input: 3f800000, Output: 7f800000
+# Input: 40000000, Output: 7f800000
+# Simulation complete.
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v(68)
+#    Time: 70 ps  Iteration: 0  Instance: /reciprocal1_tb
+# Break in Module reciprocal1_tb at /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v line 68
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.reciprocal1_tb
+# End time: 16:41:05 on Feb 16,2025, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 11
+# vsim work.reciprocal1_tb 
+# Start time: 16:41:05 on Feb 16,2025
+# Loading work.reciprocal1_tb
+# Loading work.reciprocal1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.reciprocal1_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/reciprocal1_tb/*
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /reciprocal1_tb/uut/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# Applying reset...
+# Reset de-asserted.
+# Input: 3f800000, Output: 7f800000
+# Input: 40000000, Output: 7f800000
+# Input: 3f000000, Output: 3f800000
+# Input: 00000000, Output: 3f800000
+# Input: 7f800000, Output: 3f000000
+# Input: 7fc00000, Output: 40000000
+# Simulation complete.
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v(68)
+#    Time: 150 ps  Iteration: 0  Instance: /reciprocal1_tb
+# Break in Module reciprocal1_tb at /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/reciprocal1_tb.v line 68
+vsim work.softmax_16p_tb
+# End time: 16:42:54 on Feb 16,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 9
+# vsim work.softmax_16p_tb 
+# Start time: 16:42:54 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 35
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 36
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 37
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 38
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 39
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 40
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 41
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 42
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 43
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 44
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 45
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 46
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 47
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 48
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 49
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 50
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# Loading work.reg32
+# Loading work.adder1
+# ** Error: (vsim-3033) Instantiation of 'accumulator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 98
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'recip' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 106
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 115
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 116
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 117
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 118
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 119
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 120
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 121
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 122
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 123
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 124
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 125
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 126
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 127
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 128
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 129
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 130
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# Error loading design
+# End time: 16:42:54 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 34, Warnings: 1
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.softmax_16p_tb
+# vsim work.softmax_16p_tb 
+# Start time: 16:44:09 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 35
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 36
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 37
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 38
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 39
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 40
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 41
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 42
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 43
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 44
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 45
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 46
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 47
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 48
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 49
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'exponent' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 50
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# Loading work.reg32
+# Loading work.adder1
+# ** Error: (vsim-3033) Instantiation of 'accumulator' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 98
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'recip' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 106
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 115
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 116
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 117
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 118
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 119
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 120
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 121
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 122
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 123
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 124
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 125
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 126
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 127
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 128
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 129
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# ** Error: (vsim-3033) Instantiation of 'multiplier' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 130
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# Error loading design
+# End time: 16:44:09 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 34, Warnings: 3
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.softmax_16p_tb
+# vsim work.softmax_16p_tb 
+# Start time: 16:47:48 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# ** Error: (vsim-3033) Instantiation of 'exp' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 36
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Error loading design
+# End time: 16:47:48 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+vsim work.softmax_16p_tb
+# vsim work.softmax_16p_tb 
+# Start time: 16:48:21 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# ** Error: (vsim-3033) Instantiation of 'exp' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 36
+#         Searched libraries:
+#             /home/jam/Downloads/softmax/solution/pipelined/modelsim/work
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Error loading design
+# End time: 16:48:21 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.softmax_16p_tb
+# vsim work.softmax_16p_tb 
+# Start time: 16:49:01 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+# Loading work.acc1_0002(normal)
+# Loading work.reciprocal1_0002(normal)
+# Loading work.multiplier1_0002(normal)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'acc1_ins'.  Expected 9, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/acc1_ins File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 98
+# ** Error: (vsim-3063) Port 'enable' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/acc1_ins File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 98
+# ** Error: (vsim-3063) Port 'a' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/acc1_ins File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 98
+# ** Error: (vsim-3063) Port 'q' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/acc1_ins File: /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v Line: 98
+# ** Warning: (vsim-3722) /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v(98): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-3722) /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v(98): [TFMPC] - Missing connection for port 'n'.
+# ** Warning: (vsim-3722) /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v(98): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v(98): [TFMPC] - Missing connection for port 'xo'.
+# ** Warning: (vsim-3722) /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v(98): [TFMPC] - Missing connection for port 'xu'.
+# ** Warning: (vsim-3722) /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v(98): [TFMPC] - Missing connection for port 'ao'.
+# ** Warning: (vsim-3722) /home/jam/Downloads/softmax/solution/pipelined/quartus/softmax_16p.v(98): [TFMPC] - Missing connection for port 'en'.
+# Error loading design
+# End time: 16:49:02 on Feb 16,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 11
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.softmax_16p_tb
+# vsim work.softmax_16p_tb 
+# Start time: 16:50:51 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+# Loading work.acc1_0002(normal)
+# Loading work.reciprocal1_0002(normal)
+# Loading work.multiplier1_0002(normal)
+# ** Warning: Design size of 35869 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_0/*
+add wave -position insertpoint sim:/softmax_16p_tb/*
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v(56)
+#    Time: 210 ns  Iteration: 0  Instance: /softmax_16p_tb
+# Break in Module softmax_16p_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v line 56
+run
+run
+run
+run
+run
+run
+run
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v failed with 2 errors.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v failed with 2 errors.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+vsim work.softmax_16p_tb
+# End time: 16:54:55 on Feb 16,2025, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 15
+# vsim work.softmax_16p_tb 
+# Start time: 16:54:55 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+# Loading work.acc1_0002(normal)
+# Loading work.reciprocal1_0002(normal)
+# Loading work.multiplier1_0002(normal)
+# ** Warning: Design size of 35869 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/softmax_16p_tb/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_0/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.softmax_16p
+# ** Warning: Design size of 59011 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v(56)
+#    Time: 610 ns  Iteration: 0  Instance: /softmax_16p_tb
+# Break in Module softmax_16p_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v line 56
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_0/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_1/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_2/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_3/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_4/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: Design size of 51159 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v(56)
+#    Time: 610 ns  Iteration: 0  Instance: /softmax_16p_tb
+# Break in Module softmax_16p_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v line 56
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.softmax_16p_tb
+# End time: 17:00:28 on Feb 16,2025, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 11
+# vsim work.softmax_16p_tb 
+# Start time: 17:00:28 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+# Loading work.acc1_0002(normal)
+# Loading work.reciprocal1_0002(normal)
+# Loading work.multiplier1_0002(normal)
+# ** Warning: Design size of 35869 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/softmax_16p_tb/uut/*
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v(56)
+#    Time: 610 ns  Iteration: 0  Instance: /softmax_16p_tb
+# Break in Module softmax_16p_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v line 56
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.softmax_16p_tb
+# End time: 17:03:43 on Feb 16,2025, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 11
+# vsim work.softmax_16p_tb 
+# Start time: 17:03:43 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+# Loading work.acc1_0002(normal)
+# Loading work.reciprocal1_0002(normal)
+# Loading work.multiplier1_0002(normal)
+# ** Warning: Design size of 35869 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/softmax_16p_tb/uut/*
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v(56)
+#    Time: 610 ns  Iteration: 0  Instance: /softmax_16p_tb
+# Break in Module softmax_16p_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v line 56
+run
+run
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.expo_tb
+# End time: 17:10:10 on Feb 16,2025, Elapsed time: 0:06:27
+# Errors: 0, Warnings: 11
+# vsim work.expo_tb 
+# Start time: 17:10:10 on Feb 16,2025
+# Loading work.expo_tb
+# Loading work.expo
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/expo_tb/*
+run -all
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v(44)
+#    Time: 231 ps  Iteration: 0  Instance: /expo_tb
+# Break in Module expo_tb at /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/expo_tb.v line 44
+vsim work.tb_accumulator1
+# End time: 17:21:25 on Feb 16,2025, Elapsed time: 0:11:15
+# Errors: 0, Warnings: 1
+# vsim work.tb_accumulator1 
+# Start time: 17:21:26 on Feb 16,2025
+# Loading work.tb_accumulator1
+# Loading work.acc1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.acc1_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_accumulator1/*
+run -all
+# Time	Reset	Input X	N	Output R	XO	XU	AO
+# 10	0	00000000	0	46000000	0	0	0
+# 14	0	00000010	0	42000000	0	0	0
+# 18	0	00000020	0	3a000000	0	0	0
+# 22	0	00000020	0	00000000	0	0	0
+# 28	0	3fc00000	0	00000000	0	0	0
+# 38	0	40000000	0	00000000	0	0	0
+# 42	0	40000000	0	45800000	0	0	0
+# 48	0	40400000	0	45800000	0	0	0
+# 58	0	40800000	0	45800000	0	0	0
+# 66	0	40800000	0	45800c00	0	0	0
+# 68	0	40a00000	0	45800c00	0	0	0
+# 70	0	40a00000	0	45801800	0	0	0
+# 74	0	40a00000	0	45802400	0	0	0
+# 78	0	40c00000	0	45803400	0	0	0
+# 82	0	40c00000	0	45804400	0	0	0
+# 86	0	40c00000	0	45805c00	0	0	0
+# 88	0	40e00000	0	45805c00	0	0	0
+# 90	0	40e00000	0	45807400	0	0	0
+# 94	0	40e00000	0	45808c00	0	0	0
+# 98	0	41000000	0	4580ac00	0	0	0
+# 102	0	41000000	0	4580cc00	0	0	0
+# 106	0	41000000	0	4580f400	0	0	0
+# 110	0	41000000	0	45811c00	0	0	0
+# 114	0	41000000	0	45814400	0	0	0
+# 118	0	41000000	0	45817400	0	0	0
+# 122	0	41000000	0	4581a400	0	0	0
+# 126	0	41000000	0	4581dc00	0	0	0
+# 130	0	41000000	0	45821400	0	0	0
+# 134	0	41000000	0	45824c00	0	0	0
+# 138	0	41000000	0	45828c00	0	0	0
+# 142	0	41000000	0	4582cc00	0	0	0
+# 146	0	41000000	0	45830c00	0	0	0
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v(64)
+#    Time: 148 ps  Iteration: 0  Instance: /tb_accumulator1
+# Break in Module tb_accumulator1 at /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/tb_accumulator1.v line 64
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.adder_tb
+# End time: 17:23:02 on Feb 16,2025, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 2
+# vsim work.adder_tb 
+# Start time: 17:23:02 on Feb 16,2025
+# Loading work.adder_tb
+# Loading work.adder1
+add wave -position insertpoint sim:/adder_tb/*
+run -all
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v(40)
+#    Time: 520 ns  Iteration: 0  Instance: /adder_tb
+# Break in Module adder_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/adder_tb.v line 40
+restart
+restart
+run
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.multiplier1_tb
+# End time: 17:25:12 on Feb 16,2025, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 2
+# vsim work.multiplier1_tb 
+# Start time: 17:25:12 on Feb 16,2025
+# Loading work.multiplier1_tb
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.multiplier1_0002(normal)
+# Loading work.dspba_delay(delay)
+add wave -position insertpoint sim:/multiplier1_tb/*
+run -all
+# Applying reset...
+# Reset de-asserted.
+# Input: a=ffffffff, b=00000001, Output: q=00000000
+# Input: a=7fffffff, b=00000002, Output: q=00000000
+# Input: a=00000001, b=ffffffff, Output: q=00000000
+# Simulation complete.
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v(61)
+#    Time: 270 ns  Iteration: 0  Instance: /multiplier1_tb
+# Break in Module multiplier1_tb at /home/jam/Downloads/softmax/solution/pipelined/verification/test benches/multiplier1_tb.v line 61
+run -all
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of adder1.v was successful.
+# Compile of adder_tb.v was successful.
+# Compile of softmax_16p_tb.v was successful.
+# Compile of control_unit_tb.v was successful.
+# Compile of counter_tb.v was successful.
+# Compile of expo_tb.v was successful.
+# Compile of multiplier1_tb.v was successful.
+# Compile of reciprocal1_tb.v was successful.
+# Compile of tb_accumulator1.v was successful.
+# Compile of expo.v was successful.
+# Compile of softmax_16p.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.softmax_16p_tb
+# End time: 17:29:01 on Feb 16,2025, Elapsed time: 0:03:49
+# Errors: 0, Warnings: 3
+# vsim work.softmax_16p_tb 
+# Start time: 17:29:01 on Feb 16,2025
+# Loading work.softmax_16p_tb
+# Loading work.softmax_16p
+# Loading work.expo
+# Loading work.reg32
+# Loading work.adder1
+# Loading work.acc1
+# Loading work.reciprocal1
+# Loading work.multiplier1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.dspba_library_package
+# Loading altera_mf.altera_mf_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading lpm.lpm_components
+# Loading work.expo_0002(normal)
+# Loading work.dspba_delay(delay)
+# Loading sv_std.std
+# Loading altera_lnsim.altera_syncram
+# Loading altera_lnsim.ALTERA_LNSIM_MEMORY_INITIALIZATION
+# Loading work.acc1_0002(normal)
+# Loading work.reciprocal1_0002(normal)
+# Loading work.multiplier1_0002(normal)
+# ** Warning: Design size of 35869 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/softmax_16p_tb/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_0/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_1/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/expo_2/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/*
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC2_uid80_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC2_uid80_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC1_uid77_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC1_uid77_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid74_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid74_inverseTables_lutmem_dmem
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(20001)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ERROR: cannot read reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "reciprocal1_0002_memoryC0_uid73_inverseTables_lutmem.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : $MODEL_TECH/../altera/vhdl/src/altera_lnsim/altera_lnsim.sv(17160)
+#    Time: 0 ps  Iteration: 0  Instance: /softmax_16p_tb/uut/recip_inst/reciprocal1_inst/memoryC0_uid73_inverseTables_lutmem_dmem
+# ** Note: $stop    : /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v(56)
+#    Time: 610 ns  Iteration: 0  Instance: /softmax_16p_tb
+# Break in Module softmax_16p_tb at /home/jam/Downloads/softmax/solution/pipelined/modelsim/softmax_16p_tb.v line 56
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult0/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/*
+add dataflow sim:/softmax_16p_tb/uut/*
+# WARNING: No extended dataflow license exists
+add wave sim:/softmax_16p_tb/uut/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult0/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult1/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult2/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult3/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult4/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult5/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult6/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult7/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult8/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult9/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult10/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult11/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult12/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult13/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult14/*
+add wave -position insertpoint sim:/softmax_16p_tb/uut/mult15/*
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 17:50:10 on Feb 16,2025, Elapsed time: 0:21:09
+# Errors: 0, Warnings: 10
